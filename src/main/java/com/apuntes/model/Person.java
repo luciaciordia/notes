@@ -1,14 +1,15 @@
 package com.apuntes.model;
 
 public class Person {
+    // Atributos
     private String name;
     private String surname;
 
-    // Constructor sin parametros
+    // Constructor sin parametros -> new Person()
     public Person() {
     }
 
-    // Constructor con parametros
+    // Constructor con parametros -> new Person("name", "surname")
     public Person(String name, String surname) {
         this.name = name;
         this.surname = surname;
@@ -24,6 +25,8 @@ public class Person {
     public void setName(String name) {
         this.name = name;
     }
+
+    // Metodos
 
     // Metodo que devuelve algo - Funcion
     public String getCompleteName() {
